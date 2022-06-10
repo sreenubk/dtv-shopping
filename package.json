@@ -1,0 +1,30 @@
+{
+  "name": "dtv.shopping",
+  "version": "1.0.0",
+  "description": "App for shopping cart",
+  "main": "server.js",
+  "scripts": {
+    "start": "production start",
+    "dev": "nodemon dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreenubk/dtv-shopping.git"
+  },
+  "author": "Srinivasa Bokka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sreenubk/dtv-shopping/issues"
+  },
+  "homepage": "https://github.com/sreenubk/dtv-shopping#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "mongoose": "^6.3.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  }
+}
